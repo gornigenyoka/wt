@@ -1,0 +1,52 @@
+========================================
+Solana Common Wallet Finder
+Quick Start Guide
+========================================
+
+HOW TO RUN:
+-----------
+1. Double-click "run_app.bat"
+2. Wait for dependencies to install (first time only)
+3. The app will open in your browser automatically
+4. Upload your CSV files and start analyzing!
+
+REQUIREMENTS:
+-------------
+- Windows 10/11
+- Python 3.7 or higher installed
+- Internet connection (for first-time installation)
+
+IF IT DOESN'T WORK:
+-------------------
+1. Make sure Python is installed:
+   - Download from: https://www.python.org/downloads/
+   - During installation, check "Add Python to PATH"
+
+2. If you see "pip is not recognized":
+   - Python might not be in your PATH
+   - Try running from Command Prompt:
+     python -m pip install -r requirements.txt
+     python -m streamlit run app.py
+
+3. If you see "streamlit is not recognized":
+   - Make sure pip installed successfully
+   - Try: pip install streamlit pandas
+
+CSV FORMAT:
+-----------
+Your CSV files should have:
+- Header row: "wallet" (lowercase)
+- One Solana wallet address per row
+
+Example:
+wallet
+9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM
+5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1
+
+SHARING:
+--------
+To share with friends, send them:
+- This entire folder
+- Or just: app.py, requirements.txt, and run_app.bat
+
+They just need to double-click run_app.bat!
